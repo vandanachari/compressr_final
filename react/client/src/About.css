@@ -1,0 +1,100 @@
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+background-image: url("double-bubble-dark.png");
+}
+
+/* logo */
+h1 {
+ color: white;
+ font-size: 500px;
+ text-align: center;
+ font-family: 'Kumbh Sans', sans-serif;
+ font-style: italic;
+ font-style: bold;
+ position: absolute;
+ top: 21px;
+ left: 50px;
+ overflow: hidden;
+ white-space: nowrap;
+ margin: 0 auto;
+}
+
+
+h2 {
+ color: white;
+ font-size: 30px;
+ text-align: center;
+ font-family: 'DM Mono', monospace;
+ font-style: bold;
+ position: absolute;
+ top: 100px;
+ left: 50px;
+}
+
+h3 {
+ color: #F3C072;
+ font-size: 30px;
+ text-align: center;
+ font-family: 'DM Mono', monospace;
+ font-style: bold;
+ position: absolute;
+ top: 240px;
+ left: 50px;
+}
+
+h4 {
+ color: #F3C072;
+ font-size: 30px;
+ text-align: center;
+ font-family: 'DM Mono', monospace;
+ font-style: bold;
+ position: absolute;
+ top: 340px;
+ left: 50px;
+}
+
+h7 {
+  color: white;
+  font-size: 23px;
+  text-align: left;
+  font-family: 'Kumbh Sans', sans-serif;
+  position: absolute;
+  top: 430px;
+  left: 50px;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-family: 'DM Mono', monospace;
+  font-size: 23px;
+  font-style: italic;
+  float: left;
+  display: block;
+  color: #FFC35B;
+  text-align: center;
+  padding: 23px 20px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: transparent;
+  color: white;
+}
+
+/* Main content */
+.main {
+  margin-top: 50px;
+}

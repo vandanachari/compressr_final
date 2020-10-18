@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Kumbh+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+background-image: url("double-bubble-dark.png");
+}
+
+h1 {
+ color: white;
+ font-size: 400px;
+ text-align: center;
+ font-family: 'DM Serif Text', serif;
+ position: absolute;
+ top: 120px;
+ left: 100px;
+}
+
+.typewriter h2 {
+ color: white;
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Kumbh Sans', sans-serif;
+ font-style: italic;
+ font-style: bold;
+ position: absolute;
+ top: 340px;
+ left: 100px;
+ overflow: hidden;
+ border-right: .15em solid orange;
+ white-space: nowrap;
+ margin: 0 auto;
+ letter-spacing: .15em;
+ animation:
+   typing 2.5s steps(30, end),
+   blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+ from { width: 0 }
+ to { width: 70% }
+}
+
+@keyframes blink-caret {
+ from, to { border-color: transparent }
+ 50% { border-color: orange; }
+}
+
+.getstarted button {
+ color: orange;
+ order: 3;
+ font-size: 20px;
+ text-align: center;
+ font-family: 'DM Mono', monospace;
+ font-style: bold;
+ position: absolute;
+ top: 200px;
+ left: 100px;
+ position: absolute;
+ background-color: #F3A83B;
+ border: none;
+ color: white;
+ padding: 12px 22px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-family: 'DM Mono', monospace;
+  font-size: 23px;
+  float: left;
+  display: block;
+  color: #FFC35B;
+  text-align: center;
+  padding: 23px 20px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: transparent;
+  color: white;
+}
+
+/* Main content */
+.main {
+  margin-top: 50px;
+}

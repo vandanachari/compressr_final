@@ -1,0 +1,65 @@
+/* The navigation bar */
+.navbar {
+  float: right;
+  overflow: hidden;
+  background-color: transparent;
+  /*position: fixed;*/ /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 50%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-family: 'DM Mono', monospace;
+  font-size: 23px;
+  float: right;
+  display: block;
+  color: #FFC35B;
+  text-align: center;
+  padding: 23px 20px;
+  text-decoration: none;
+}
+
+#welcomeElement {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1650px;
+    list-style-type: none;
+    font-family: 'DM Mono', monospace;
+
+}
+
+#demoElement {
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 1650px;
+    list-style-type: none;
+    font-family: 'DM Mono', monospace;
+
+}
+
+#tryitoutElement {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 1650px;
+    list-style-type: none;
+    font-family: 'DM Mono', monospace;
+}
+
+#aboutElement {
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 1650px;
+    list-style-type: none;
+    font-family: 'DM Mono', monospace;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: transparent;
+  color: white;
+}
